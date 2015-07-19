@@ -24,11 +24,25 @@
 			}
 			hr {
 				border-width: 3px;
+				margin: auto 10px;
 			}
 			.topInfo {
 				margin-top: 1px;
 				text-align: center;
 				font-size: 0.8em;
+			}
+			.sidebar {
+				float: left;
+				width: 30%;
+				border: 1px;
+				border-style: double;
+				border-width: 5px;
+				margin-left: 10px;
+				text-align: center;
+			}
+			.nav-links {
+				list-style-type: none;
+				text-align: center;
 			}
 		</style>
 	</head>
@@ -40,7 +54,13 @@
 			<!--<h2>310 E. Springfield Ave #511A - Champaign, IL - 61820</h2>-->
 			<hr>
 		</header>
-		<aside>
+		<aside class="sidebar">
+			Navigation
+			<ul class="nav-links">
+				<li>Link 1</li>
+				<li>Link 2</li>
+				<li>Link 3</li>
+			</ul>
 		</aside>
 	</body>
 </html>
