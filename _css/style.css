@@ -1,14 +1,33 @@
-h1.lastname {
- color:gray;
-    display: inline;
-}
-div.name {
-    color: red;
-    /*width: auto;
-    text-align: left;*/
+body#mainBody {
     font-family: Avenir;
+    background-color: lightgray;
 }
-p.address {
-    text-align: right;  
-    font-family: Avenir;
+
+h1.fullName {
+    position: relative;
+    top: 5px;
+    height: 56px;
+    width: 500px;
+    text-align: center;
+    font-size: 50px;
+    text-indent: 1.0em;
+    text-align: left;
+}
+
+span#lastName {
+    color: dimgray;
+}
+
+hr {
+    border-width: 3px;
+}
+
+.link {
+    position: relative;
+    top: 0px;
+    left: 500px;
+    text-indent: 1.0em;
+    text-indent: 30px;
+    font-size: 1.3em;
+    color: cadetblue;
 }
