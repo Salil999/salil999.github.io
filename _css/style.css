@@ -1,0 +1,14 @@
+h1.lastname {
+ color:gray;
+    display: inline;
+}
+div.name {
+    color: red;
+    /*width: auto;
+    text-align: left;*/
+    font-family: Avenir;
+}
+p.address {
+    text-align: right;  
+    font-family: Avenir;
+}
