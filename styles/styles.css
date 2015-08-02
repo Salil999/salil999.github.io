@@ -1,6 +1,15 @@
 .headBar {
-	font-family: Avenir;
-	background-color: lightgray;	
+	font-family: 'Lato', sans-serif;
+	background-color: darkgray;
+}
+.proPic {
+	display: block;
+    height: auto; 
+    width: auto; 
+    max-width: 310px; 
+    max-height: 310px;
+	margin-left: auto;
+	margin-right: auto;
 }
 .fullName {
 	width: inherit;
@@ -11,9 +20,6 @@
 	font-size: 3.5em;
 	margin-bottom: 1px;
 	margin-top: 1px;
-}
-.lastName {
-	color: dimgray;
 }
 hr {
 	border-width: 3px;
