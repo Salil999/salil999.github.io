@@ -2,53 +2,32 @@
 	font-family: 'Lato', sans-serif;
 	background-color: darkgray;
 }
+
+.fullName {
+	width: inherit;
+	color: black;
+	text-align: center;
+	font-size: 4.0em;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
 .proPic {
 	display: block;
-    height: auto; 
-    width: auto; 
-    max-width: 23%; 
-    max-height: 23%;
+	height: auto; 
+	width: auto; 
+	max-width: 18%; 
+	max-height: 18%;
 	margin-left: auto;
 	margin-right: auto;
 }
-.fullName {
-	width: inherit;
-	height: auto;
-	width: auto;
-	color: black;
-	text-align: center;
-	font-size: 3.5em;
-	margin-bottom: 1px;
-	margin-top: 1px;
-}
-hr {
-	border-width: 3px;
-	margin: auto 10px;
-}
-.topInfo {
-	margin-top: 1px;
-	text-align: center;
-	font-size: 0.8em;
-}
-.main {
-	text-align: center;
-}
-/* ======================================== */
-.edu {
-	margin: 0 auto;
-}
-.edu ul {
-	padding: 0;
-	list-style: none;	
-}
-.edu ul li {
-	margin: 0;
-	padding-left: 0;
-}
-.edu ul li h4 {
-	margin-top: 0px;
-	margin-bottom: 5px;
-}
-.exp {
 
+.aboutMe h2 {
+font-size: 2.3em;	
+}
+
+.lineBreak {
+	border-width: 2px;
+	width: 25%;
+	float: left;
 }
