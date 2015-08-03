@@ -1,6 +1,6 @@
 .headBar {
-	font-family: 'Lato', sans-serif;
-	background-color: darkgray;
+	font-family: 'Lato', 'Arial', sans-serif;
+	background-color: dimgray;
 }
 
 .fullName {
@@ -12,7 +12,7 @@
 	margin-top: 0;
 }
 
-.left-top {
+.left-header {
 	float:left;
 	width:auto;
 	text-align: center;
@@ -21,13 +21,13 @@
 	margin-left: 25px;
 }
 
-.right-top {
+.right-header {
 	margin-top: 40px;
 	float: right;
 	width:auto;
 	text-align: center;
 	font-size: 2.0em;
-	margin-right: 25px;
+	margin-right: 67px;
 }
 
 .proPic {
@@ -38,6 +38,7 @@
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 10px;
+	align-content: center;
 }
 
 /* ================ aboutMe ================== */
@@ -48,7 +49,7 @@
 }
 
 .aboutMe h2 {
-	font-size: 1.3em;
+	font-size: 1.6em;
 	margin-bottom: 10px;
 }
 
@@ -68,7 +69,7 @@
 }
 
 .experience h2 {
-	font-size: 1.3em;
+	font-size: 1.6em;
 	margin-bottom: 10px;
 }
 
@@ -77,5 +78,25 @@
 }
 
 .experience li {
+	margin-bottom: 10px;
+}
+
+/* ================ knowledge ================== */
+
+.knowledge {
+	margin: 0 auto;
+	margin-left: 2%;
+}
+
+.knowledge h2 {
+	font-size: 1.6em;
+	margin-bottom: 10px;
+}
+
+.knowledge h3 {
+	font-size: 1.2em;
+}
+
+.knowledge li {
 	margin-bottom: 10px;
 }
