@@ -147,10 +147,16 @@ li .fa:hover {
 }
 
 @media screen and (max-width: 480px) {
+
+	.aboutMe ul {
+	}
 	
-	ul li {
+	.contact ul li {
+		padding-left: 0;
 		display: block;
 		clear: both;
 		width: 100%;
+		margin-left: 0px;
+		text-align: center;
 	}
 }
