@@ -118,6 +118,8 @@
 	list-style-type: none;
 	text-align:justify;
 	position:relative;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .contact ul li {
@@ -125,7 +127,7 @@
 	margin-bottom: 8px;
 	display:inline-block;
 	width:auto;
-	margin-left:7%;
+	margin-left: 7%;
 	margin-right: 7%;
 }
 
