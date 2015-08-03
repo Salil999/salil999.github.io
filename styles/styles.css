@@ -45,7 +45,7 @@
 
 .aboutMe {
 	margin: 0 auto;
-	margin-left: 2%;
+	margin-left: 6%;
 }
 
 .aboutMe h2 {
@@ -65,7 +65,7 @@
 
 .experience {
 	margin: 0 auto;
-	margin-left: 2%;
+	margin-left: 6%;
 }
 
 .experience h2 {
@@ -85,7 +85,7 @@
 
 .knowledge {
 	margin: 0 auto;
-	margin-left: 2%;
+	margin-left: 6%;
 }
 
 .knowledge h2 {
@@ -121,11 +121,12 @@
 }
 
 .contact ul li {
-	margin-top: 15px;
-	margin-bottom: 15px;
+	margin-top: 8px;
+	margin-bottom: 8px;
 	display:inline-block;
 	width:auto;
-	margin-left:12%;
+	margin-left:7%;
+	margin-right: 7%;
 }
 
 li .fa {
@@ -134,5 +135,9 @@ li .fa {
 }
 
 li .fa-file-text {
-	font-size: 135px;
+	font-size: 130px;
+}
+
+li .fa:hover {
+	color: #3b5998;
 }
