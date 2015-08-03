@@ -118,5 +118,6 @@
 }
 
 .contact li {
+	display: inline;
 	margin-bottom: 10px;
 }
