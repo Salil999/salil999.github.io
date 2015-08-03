@@ -127,3 +127,12 @@
 	width:auto;
 	margin-left:12%;
 }
+
+li .fa {
+	font-size: 150px;
+	color: black;
+}
+
+li .fa-file-text {
+	font-size: 135px;
+}
