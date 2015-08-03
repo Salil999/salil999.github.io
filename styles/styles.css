@@ -12,6 +12,23 @@
 	margin-top: 0;
 }
 
+.left {
+	float:left;
+	width:auto;
+	padding-top:4px;
+	text-align: center;
+	margin-top: 50px;
+	font-size: 3.0em;
+}
+
+.right {
+	margin-top: 50px;
+    float: right;
+    width:auto;
+    text-align: center;
+	font-size: 3.0em;
+}
+
 .proPic {
 	display: block;
 	max-width: 18%; 
