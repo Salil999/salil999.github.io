@@ -115,6 +115,7 @@
 
 .contact ul {
 	padding: 0;
+	width: 90%;
 	text-align: center;
 	display: table;
 	margin: 0 auto;
@@ -126,7 +127,8 @@
 .contact ul li {
 	margin-top: 8px;
 	margin-bottom: 8px;
-	margin: 8px 8px 8px;
+	margin-left: 5%;
+	margin-right: 5%;
 	display:inline-block;
 }
 
