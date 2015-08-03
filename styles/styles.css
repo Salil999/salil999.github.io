@@ -19,6 +19,7 @@
 	margin-top: 40px;
 	font-size: 2.0em;
 	margin-left: 25px;
+	width: 300px;
 }
 
 .right-header {
@@ -27,12 +28,13 @@
 	width:auto;
 	text-align: center;
 	font-size: 2.0em;
-	margin-right: 67px;
+	margin-right: 25px;
+	width: 300px;
 }
 
 .proPic {
 	display: block;
-	max-width: 18%; 
+	max-width: 25%; 
 	min-height: 17%;
 	margin-left: auto;
 	margin-right: auto;
@@ -145,10 +147,14 @@ li .fa:hover {
 	color: red;
 }
 
+@media screen and (max-width: 450px) {
+	
+}
+
 @media screen and (max-width: 610px) {
 
 	.proPic {
-		max-width: 64%;
+		max-width: 40%;
 	}
 
 	.left-header {
