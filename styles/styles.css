@@ -148,7 +148,7 @@ li .fa:hover {
 @media screen and (max-width: 480px) {
 
 	.proPic {
-		max-width: 50%;
+		max-width: 64%;
 	}
 	
 	.left-header {
