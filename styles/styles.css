@@ -100,3 +100,23 @@
 .knowledge li {
 	margin-bottom: 10px;
 }
+
+/* ================ contact ================== */
+
+.contact {
+	margin: 0 auto;
+	margin-left: 2%;
+}
+
+.contact h2 {
+	font-size: 1.6em;
+	margin-bottom: 10px;
+}
+
+.contact ul {
+	list-style-type: none;
+}
+
+.contact li {
+	margin-bottom: 10px;
+}
