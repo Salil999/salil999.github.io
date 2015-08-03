@@ -114,21 +114,20 @@
 }
 
 .contact ul {
+	padding: 0;
+	text-align: center;
+	display: table;
+	margin: 0 auto;
 	margin-bottom: 50px;
 	list-style-type: none;
-	text-align:justify;
-	position:relative;
-	margin-left: auto;
-	margin-right: auto;
+	position: relative;
 }
 
 .contact ul li {
 	margin-top: 8px;
 	margin-bottom: 8px;
+	margin: 8px 8px 8px;
 	display:inline-block;
-	width:auto;
-	margin-left: 7%;
-	margin-right: 7%;
 }
 
 li .fa {
@@ -138,7 +137,7 @@ li .fa {
 }
 
 li .fa-file-text {
-	font-size: 130px;
+	font-size: 132px;
 }
 
 li .fa:hover {
