@@ -60,22 +60,22 @@
 	margin-bottom: 10px;
 }
 
-/* ================ education ================== */
+/* ================ experience ================== */
 
-.education {
+.experience {
 	margin: 0 auto;
 	margin-left: 2%;
 }
 
-.education h2 {
+.experience h2 {
 	font-size: 1.3em;
 	margin-bottom: 10px;
 }
 
-.education ul {
+.experience ul {
 	list-style-type: none;
 }
 
-.education li {
+.experience li {
 	margin-bottom: 10px;
 }
