@@ -145,30 +145,7 @@ li .fa:hover {
 	color: red;
 }
 
-@media screen and (max-width: 360px) {
-	
-	.proPic {
-		max-width: 74%;	
-	}
-	
-	.left-header {
-		display: none;
-	}
-
-	.right-header {
-		display: none;
-	}
-	.contact ul li {
-		padding-left: 0;
-		display: block;
-		clear: both;
-		width: 100%;
-		margin-left: 0px;
-		text-align: center;
-	}
-}
-
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 610px) {
 
 	.proPic {
 		max-width: 64%;
