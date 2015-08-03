@@ -146,6 +146,11 @@ li .fa:hover {
 	color: red;
 }
 
-footer {
+@media screen and (max-width: 480px) {
 	
+	ul li {
+		display: block;
+		clear: both;
+		width: 100%;
+	}
 }
