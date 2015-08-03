@@ -12,23 +12,38 @@
 	margin-top: 0;
 }
 
-.left {
+.left-top {
 	float:left;
 	width:auto;
-	padding-top:4px;
 	text-align: center;
 	margin-top: 50px;
 	font-size: 3.0em;
 }
 
-.right {
+/*.left-bottom {
+	float:left;
+	width:auto;
+	text-align: center;
+	margin-top: 200px;
+	font-size: 3.0em;
+}*/
+
+.right-top {
 	margin-top: 50px;
-    float: right;
-    width:auto;
-    text-align: center;
+	float: right;
+	width:auto;
+	text-align: center;
 	font-size: 3.0em;
 }
 
+/*.right-bottom {
+	margin-top: 200px;
+	float: right;
+	width:auto;
+	text-align: center;
+	font-size: 3.0em;	
+}
+*/
 .proPic {
 	display: block;
 	max-width: 18%; 
