@@ -33,7 +33,6 @@
 .proPic {
 	display: block;
 	max-width: 18%; 
-	min-width: 17%;
 	min-height: 17%;
 	margin-left: auto;
 	margin-right: auto;
@@ -148,9 +147,19 @@ li .fa:hover {
 
 @media screen and (max-width: 480px) {
 
-	.aboutMe ul {
+	.proPic {
+		min-height: 33%;
+		max-width: 33%;
 	}
 	
+	.left-header {
+		display: none;
+	}
+
+	.right-header {
+		display: none;
+	}
+
 	.contact ul li {
 		padding-left: 0;
 		display: block;
