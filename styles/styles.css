@@ -35,10 +35,8 @@
 .proPic {
 	display: block;
 	max-width: 18%; 
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0 auto;
 	margin-bottom: 30px;
-	align-content: center;
 }
 
 .leftSide {
@@ -81,6 +79,7 @@
 
 .experience ul {
 	list-style-type: none;
+	padding: 2%;
 }
 
 .experience li {
@@ -226,29 +225,29 @@ li .fa-linkedin-square:hover {
 
 	h2,h3 {
 		text-align: center;
-		margin-left: -4%;
+		margin: 0 auto;
 		padding-left: 0;
 		width: 100%;
 	}
-	
+
 	ul {
-		list-style: none;
-		margin: 0;
 		padding: 0;
+		list-style-type: none;
 	}
-	
+
 	ul li {
-		padding-left: 0px;
 		display: block;
 		width: auto;
-		margin-left: 0;
+		clear: both;
+		margin: 0 auto;
 		text-align: center;
 	}
 
 	.contact ul li {
 		display: block;
 		width: auto;
-		margin-left: 0;
+		clear: both;
+		margin: 0 auto;
 		text-align: center;
 	}
 }
