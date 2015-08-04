@@ -172,11 +172,11 @@ li .fa-file-text {
 }
 
 li .fa-file-text:hover {
-	color: indianred;
+	color: red;
 }
 
 li .fa-envelope:hover {
-	color: mediumpurple;
+	color: forestgreen;
 }
 
 li .fa-github:hover {
