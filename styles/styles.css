@@ -175,6 +175,10 @@ li .fa-linkedin-square:hover {
 }
 
 @media screen and (max-width: 665px) {
+	.fullName {
+		font-size: 3.0em;
+	}
+	
 	.leftSide {
 		width: 100%;	
 	}
