@@ -125,6 +125,10 @@
 	line-height: 200%;
 }
 
+.projects ul li b {
+	font-size: 1.2em;
+}
+
 /* ================ contact ================== */
 
 .contact {
