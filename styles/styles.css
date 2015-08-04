@@ -53,20 +53,21 @@ header {
 
 .leftSide {
 	float: left;
-	width: 36%;
+	width: 39%;
+	margin-bottom: 5%;
 	display: block;
-	margin-left: 6%;
-	margin-right: 6%;
+	margin-left: 4%;
+	margin-right: 4%;
 	position: relative;
 }
 
 .rightSide {
 	float: right;
-	width: 36%;
+	width: 39%;
+	margin-bottom: 5%;
 	display: block;
-	margin-right: 6%;
-	margin-left: 6%;
-	position: relative;
+	margin-right: 4%;
+	margin-left: 4%;
 }
 
 .body {
@@ -87,7 +88,7 @@ header {
 .myStory h2 {
 	font-size: 1.6em;
 	font-weight: bolder;
-	margin-bottom: 10px;
+	margin-bottom: 30px;
 }
 
 .introPara {
@@ -104,20 +105,14 @@ header {
 	margin: 0 auto;
 }
 
-workExp p {
+.workExp p {
 	line-height: 200%;
+	font-family: 'Quicksand', sans-serif;
 }
 
 .workExp h2 {
 	font-size: 1.6em;
-}
-
-.workExp ul {
-	list-style-type: none;
-}
-
-.workExp li {
-	line-height: 200%;
+	margin-bottom: 30px;
 }
 
 /* ================ whatIKnow ================== */
