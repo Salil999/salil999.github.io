@@ -49,6 +49,11 @@ header {
 	max-width: 20%;
 	margin: 0 auto;
 	margin-top: 80px;
+	/*
+	border-radius: 50%;
+	border-bottom: solid 5px #dee9f1;
+	border-top: solid 5px white;
+	*/
 }
 
 .leftSide {
