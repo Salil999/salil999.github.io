@@ -105,11 +105,28 @@
 
 .knowledge li {
 	margin-bottom: 10px;
-	list-style-type: square;
+	list-style-type: none;
 }
 
-/* ================ knowledge ================== */
+/* ================ projects ================== */
 
+.projects {
+	margin: 0 auto;
+	margin-left: 6%;
+}
+
+.projects h2 {
+	font-size: 1.6em;
+	margin-bottom: 10px;
+}
+
+.projects ul {
+	list-style-type: none;
+}
+
+.projects ul li {
+	line-height: 200%;
+}
 
 /* ================ contact ================== */
 
@@ -207,20 +224,30 @@ li .fa-linkedin-square:hover {
 		display: none;
 	}
 
-	ul li {
-		clear: both;
-		width: auto;
-		margin: 0 auto;		
+	h2,h3 {
+		text-align: center;
+		margin-left: -4%;
+		padding-left: 0;
+		width: 100%;
 	}
-
-	.knowledge ul {
-		text-align: -webkit-match-parent;
+	
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+	
+	ul li {
+		padding-left: 0px;
+		display: block;
+		width: auto;
+		margin-left: 0;
+		text-align: center;
 	}
 
 	.contact ul li {
 		display: block;
-		clear: both;
-		width: 100%;
+		width: auto;
 		margin-left: 0;
 		text-align: center;
 	}
