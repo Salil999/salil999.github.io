@@ -63,12 +63,8 @@
 	margin-bottom: 10px;
 }
 
-.aboutMe ul {
-	list-style-type: none;
-}
-
-.aboutMe li {
-	margin-bottom: 10px;
+.introPara {
+	line-height: 200%;
 }
 
 /* ================ experience ================== */
@@ -109,7 +105,11 @@
 
 .knowledge li {
 	margin-bottom: 10px;
+	list-style-type: square;
 }
+
+/* ================ knowledge ================== */
+
 
 /* ================ contact ================== */
 
@@ -137,21 +137,21 @@
 .contact ul li {
 	margin-top: 8px;
 	margin-bottom: 8px;
-	margin-left: 5%;
-	margin-right: 5%;
+	margin-left: 7.5%;
+	margin-right: 7.5%;
 	display:inline-block;
 }
 
 /* ======================= Font Awesome ======================= */
 
 li .fa {
-	font-size: 120px;
+	font-size: 65px;
 	color: black;
 	display: inline-block;
 }
 
 li .fa-file-text {
-	font-size: 100px;
+	font-size: 60px;
 }
 
 li .fa-file-text:hover {
