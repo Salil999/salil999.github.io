@@ -124,20 +124,18 @@ header {
 
 .whatIKnow {
 	margin: 0 auto;
+	margin-bottom: 60px;
 }
 
 .whatIKnow h2 {
 	font-size: 1.6em;
-	margin-bottom: 10px;
+	margin-bottom: 30px;
 }
 
-.whatIKnow h3 {
-	font-size: 1.2em;
-}
-
-.whatIKnow li {
-	margin-bottom: 10px;
-	list-style-type: none;
+.whatIKnow p {
+	line-height: 150%;
+	font-family: 'Quicksand', sans-serif;
+	text-indent: 20px;
 }
 
 /* ================ myWork ================== */
@@ -148,20 +146,13 @@ header {
 
 .myWork h2 {
 	font-size: 1.6em;
-	margin-bottom: 10px;
+	margin-bottom: 30px;
 }
 
-.myWork ul {
-	list-style: none;
-	padding-left: 0;
-}
-
-.myWork ul li {
+.myWork p {
+	text-indent: 20px;
 	line-height: 200%;
-}
-
-.myWork ul li b {
-	font-size: 1.2em;
+	font-family: 'Quicksand', sans-serif;
 }
 
 /* ================ contact ================== */
@@ -274,7 +265,7 @@ li .fa-linkedin-square:hover {
 		display: none;
 	}
 
-	h2,h3 {
+	h2 {
 		text-align: center;
 		margin: 0 auto;
 		padding-left: 0;
