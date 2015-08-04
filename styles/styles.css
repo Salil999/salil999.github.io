@@ -53,17 +53,19 @@ header {
 
 .leftSide {
 	float: left;
-	width: 46%;
+	width: 36%;
 	display: block;
-	margin-left: 3%;
+	margin-left: 6%;
+	margin-right: 6%;
 	position: relative;
 }
 
 .rightSide {
 	float: right;
-	width: 46%;
+	width: 36%;
 	display: block;
-	margin-right: 3%;
+	margin-right: 6%;
+	margin-left: 6%;
 	position: relative;
 }
 
@@ -84,28 +86,37 @@ header {
 
 .myStory h2 {
 	font-size: 1.6em;
+	font-weight: bolder;
 	margin-bottom: 10px;
 }
 
 .introPara {
 	line-height: 200%;
+	font-family: 'Quicksand', sans-serif;
+	text-align: justify;
+	margin-bottom: 60px;
+	margin-top: 5px;
 }
 
 /* ================ recentStuff ================== */
 
-.recentStuff {
+.workExp {
 	margin: 0 auto;
 }
 
-.recentStuff h2 {
+workExp p {
+	line-height: 200%;
+}
+
+.workExp h2 {
 	font-size: 1.6em;
 }
 
-.recentStuff ul {
+.workExp ul {
 	list-style-type: none;
 }
 
-.recentStuff li {
+.workExp li {
 	line-height: 200%;
 }
 
@@ -141,7 +152,8 @@ header {
 }
 
 .myWork ul {
-	list-style-type: none;
+	list-style: none;
+	padding-left: 0;
 }
 
 .myWork ul li {
@@ -235,7 +247,7 @@ li .fa-linkedin-square:hover {
 		margin: 0 auto;
 	}
 
-	.recentStuff {
+	.workExp {
 		padding-left: 2%;
 		padding-right: 2%;
 		margin: 0 auto;
