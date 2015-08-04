@@ -74,16 +74,14 @@
 
 .experience h2 {
 	font-size: 1.6em;
-	margin-bottom: 10px;
 }
 
 .experience ul {
 	list-style-type: none;
-	padding: 2%;
 }
 
 .experience li {
-	margin-bottom: 10px;
+	line-height: 200%;
 }
 
 /* ================ knowledge ================== */
@@ -147,7 +145,6 @@
 	margin: 0 auto;
 	margin-bottom: 50px;
 	list-style-type: none;
-	position: relative;
 }
 
 .contact ul li {
@@ -232,15 +229,15 @@ li .fa-linkedin-square:hover {
 
 	ul {
 		padding: 0;
+		width: 90%;
+		text-align: center;
+		margin: 0 auto;
+		margin-bottom: 50px;
 		list-style-type: none;
 	}
 
 	ul li {
-		display: block;
-		width: auto;
-		clear: both;
 		margin: 0 auto;
-		text-align: center;
 	}
 
 	.contact ul li {
