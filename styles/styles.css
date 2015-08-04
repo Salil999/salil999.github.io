@@ -158,6 +158,7 @@
 /* ======================= Font Awesome ======================= */
 
 li .fa {
+	text-rendering: optimizeLegibility;
 	font-size: 65px;
 	color: black;
 	display: inline-block;
