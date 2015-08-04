@@ -1,6 +1,6 @@
 .headBar {
 	font-family: 'Lato', 'Arial', sans-serif;
-	background-color: lightgray;
+	background-color: #98AFC7;
 }
 
 .fullName {
@@ -9,54 +9,70 @@
 	text-align: center;
 	font-size: 5.0em;
 	margin-bottom: 20px;
-	margin-top: 0;
 }
 
 .left-header {
+	letter-spacing: 10px;
 	float:left;
 	width:auto;
 	text-align: center;
-	margin-top: 40px;
+	margin-top: 115px;
 	font-size: 2.0em;
-	margin-left: 25px;
-	width: 300px;
+	margin-left: 50px;
+	width: 500px;
+	font-family: 'Quicksand', sans-serif;
 }
 
 .right-header {
-	margin-top: 40px;
+	letter-spacing: 10px;
+	font-family: 'Quicksand', sans-serif;
+	margin-top: 115px;
 	float: right;
-	width:auto;
 	text-align: center;
+	width:auto;
 	font-size: 2.0em;
-	margin-right: 25px;
-	width: 300px;
+	margin-right: 50px;
+	width: 500px;
+}
+
+.header {
+	padding-bottom: 200px;
+	padding-top: 70px;
 }
 
 .proPic {
 	display: block;
-	max-width: 18%; 
+	max-width: 14%;
 	margin: 0 auto;
-	margin-bottom: 30px;
+	margin-top: 100px;
 }
 
 .leftSide {
 	float: left;
-	width: 45%;
+	width: 46%;
+	display: block;
+	margin-left: 3%;
 }
 
 .rightSide {
 	float: right;
-	width: 45%;
+	width: 46%;
+	display: block;
+	margin-right: 3%;
 }
 
-/* ================ aboutMe ================== */
+.body {
+	clear: both;
+	background-color: white;
+}
 
-.aboutMe {
+/* ================ myStory ================== */
+
+.myStory {
 	margin: 0 auto;
-	margin-left: 6%;
 }
 
-.aboutMe h2 {
+.myStory h2 {
 	font-size: 1.6em;
 	margin-bottom: 10px;
 }
@@ -65,67 +81,64 @@
 	line-height: 200%;
 }
 
-/* ================ experience ================== */
+/* ================ recentStuff ================== */
 
-.experience {
+.recentStuff {
 	margin: 0 auto;
-	margin-left: 6%;
 }
 
-.experience h2 {
+.recentStuff h2 {
 	font-size: 1.6em;
 }
 
-.experience ul {
+.recentStuff ul {
 	list-style-type: none;
 }
 
-.experience li {
+.recentStuff li {
 	line-height: 200%;
 }
 
-/* ================ knowledge ================== */
+/* ================ whatIKnow ================== */
 
-.knowledge {
+.whatIKnow {
 	margin: 0 auto;
-	margin-left: 6%;
 }
 
-.knowledge h2 {
+.whatIKnow h2 {
 	font-size: 1.6em;
 	margin-bottom: 10px;
 }
 
-.knowledge h3 {
+.whatIKnow h3 {
 	font-size: 1.2em;
 }
 
-.knowledge li {
+.whatIKnow li {
 	margin-bottom: 10px;
 	list-style-type: none;
 }
 
-/* ================ projects ================== */
+/* ================ myWork ================== */
 
-.projects {
+.myWork {
 	margin: 0 auto;
-	margin-left: 6%;
 }
 
-.projects h2 {
+.myWork h2 {
 	font-size: 1.6em;
 	margin-bottom: 10px;
 }
 
-.projects ul {
+.myWork ul {
 	list-style-type: none;
 }
 
-.projects ul li {
+.myWork ul li {
 	line-height: 200%;
 }
 
-.projects ul li b {
+.myWork ul li b {
 	font-size: 1.2em;
 }
 
@@ -133,8 +146,9 @@
 
 .contact {
 	margin: 0 auto;
-	margin-left: 2%;
-	margin-right: 2%;
+	clear: both;
+	width: 100%;
+	padding-top: 50px;
 }
 
 .contact h2 {
@@ -143,7 +157,7 @@
 
 .contact ul {
 	padding: 0;
-	width: 90%;
+	width: 100%;
 	text-align: center;
 	display: table;
 	margin: 0 auto;
@@ -162,7 +176,6 @@
 /* ======================= Font Awesome ======================= */
 
 li .fa {
-	text-rendering: optimizeLegibility;
 	font-size: 65px;
 	color: black;
 	display: inline-block;
@@ -194,10 +207,6 @@ li .fa-linkedin-square:hover {
 
 /* ======================= Font Awesome ======================= */
 
-@media screen and (max-width: 450px) {
-
-}
-
 @media screen and (max-width: 665px) {
 
 	.fullName {
@@ -206,6 +215,24 @@ li .fa-linkedin-square:hover {
 
 	.leftSide {
 		width: 100%;	
+		padding: 0;
+		margin: 0 auto;
+	}
+
+	.myStory {
+		padding-left: 2%;
+		padding-right: 2%;
+		margin: 0 auto;
+	}
+
+	.recentStuff {
+		padding-left: 2%;
+		padding-right: 2%;
+		margin: 0 auto;
+	}
+
+	.whatIKnow {
+
 	}
 
 	.rightSide {
@@ -233,12 +260,9 @@ li .fa-linkedin-square:hover {
 	}
 
 	ul {
-		padding: 0;
-		width: 90%;
 		text-align: center;
+		padding: 0;
 		margin: 0 auto;
-		margin-bottom: 50px;
-		list-style-type: none;
 	}
 
 	ul li {
