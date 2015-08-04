@@ -149,8 +149,12 @@ header {
 	margin-bottom: 30px;
 }
 
+.myWork h3 {
+	text-align: center;
+}
+
 .myWork p {
-	text-indent: 30px;
+	margin-left: 20px;
 	line-height: 200%;
 	font-family: 'Quicksand', sans-serif;
 }
@@ -221,7 +225,17 @@ li .fa-linkedin-square:hover {
 /* ======================= Font Awesome ======================= */
 
 @media screen and (max-width: 1100px) {
-
+	.left-header {
+		display: none;
+	}
+	
+	.fullName {
+	font-size: 3.5em;	
+	}
+	
+	.right-header {
+		display: none;
+	}
 }
 
 @media screen and (max-width: 665px) {
@@ -267,10 +281,16 @@ li .fa-linkedin-square:hover {
 		padding-right: 2%;
 		margin: 0 auto;	
 	}
+	
+	.whatIKnow p {
+		text-indent: 0px;
+		text-align: center;
+	}
 
 	.rightSide {
 		float: left;
 		width: 100%;
+		margin: 0 auto;
 	}
 
 	.left-header {
