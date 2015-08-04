@@ -46,7 +46,7 @@ body {
 
 .proPic {
 	display: block;
-	max-width: 14%;
+	max-width: 20%;
 	margin: 0 auto;
 	margin-top: 100px;
 }
@@ -153,18 +153,18 @@ body {
 
 /* ================ contact ================== */
 
-.contact {
+footer {
 	margin: 0 auto;
 	clear: both;
 	width: 100%;
 	padding-top: 50px;
 }
 
-.contact h2 {
+footer h2 {
 	font-size: 1.6em;
 }
 
-.contact ul {
+footer ul {
 	padding: 0;
 	width: 100%;
 	text-align: center;
@@ -174,7 +174,7 @@ body {
 	list-style-type: none;
 }
 
-.contact ul li {
+footer ul li {
 	margin-top: 8px;
 	margin-bottom: 8px;
 	margin-left: 7.5%;
@@ -186,7 +186,7 @@ body {
 
 li .fa {
 	font-size: 65px;
-	color: black;
+	color: #404749;
 	display: inline-block;
 }
 
@@ -195,14 +195,14 @@ li .fa-file-text {
 }
 
 li .fa-file-text:hover {
-	color: red;
+	color: indianred;
 }
 
 li .fa-envelope:hover {
 	color: forestgreen;
 }
 
-li .fa-github:hover {
+li .fa-github-square:hover {
 	color: darkgray;
 }
 
@@ -278,7 +278,7 @@ li .fa-linkedin-square:hover {
 		margin: 0 auto;
 	}
 
-	.contact ul li {
+	footer ul li {
 		display: block;
 		width: auto;
 		clear: both;
