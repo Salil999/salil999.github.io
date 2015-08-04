@@ -225,18 +225,23 @@ li .fa-linkedin-square:hover {
 }
 
 @media screen and (max-width: 665px) {
-	
+
 	header {
 		padding-bottom: 150px;
 		padding-top: 0px;
 	}
-	
+
 	.body {
 		padding-top: 30px;	
 	}
 
 	.fullName {
 		font-size: 3.0em;
+	}
+
+	.proPic {
+		max-width: 40%;
+		margin-top: 20px;
 	}
 
 	.leftSide {
@@ -268,10 +273,6 @@ li .fa-linkedin-square:hover {
 		width: 100%;
 	}
 
-	.proPic {
-		max-width: 40%;
-	}
-
 	.left-header {
 		display: none;
 	}
@@ -286,7 +287,4 @@ li .fa-linkedin-square:hover {
 		padding-left: 0;
 		width: 100%;
 	}
-
-
-
 }
