@@ -34,8 +34,7 @@
 
 .proPic {
 	display: block;
-	max-width: 25%; 
-	min-height: 17%;
+	max-width: 18%; 
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 30px;
@@ -137,6 +136,8 @@
 	display:inline-block;
 }
 
+/* ======================= Font Awesome ======================= */
+
 li .fa {
 	font-size: 120px;
 	color: black;
@@ -144,22 +145,40 @@ li .fa {
 }
 
 li .fa-file-text {
-	font-size: 107px;
+	font-size: 100px;
 }
 
-li .fa:hover {
-	color: red;
+li .fa-file-text:hover {
+	color: indianred;
 }
+
+li .fa-envelope:hover {
+	color: mediumpurple;
+}
+
+li .fa-github:hover {
+	color: darkgray;
+}
+
+li .fa-facebook-square:hover {
+	color: #3b5998;
+}
+
+li .fa-linkedin-square:hover {
+	color: #007bb6;
+}
+
+/* ======================= Font Awesome ======================= */
 
 @media screen and (max-width: 450px) {
-	
+
 }
 
 @media screen and (max-width: 665px) {
 	.leftSide {
 		width: 100%;	
 	}
-	
+
 	.proPic {
 		max-width: 40%;
 	}
@@ -172,12 +191,21 @@ li .fa:hover {
 		display: none;
 	}
 
+	ul li {
+		clear: both;
+		width: auto;
+		margin: 0 auto;		
+	}
+
+	.knowledge ul {
+		text-align: -webkit-match-parent;
+	}
+
 	.contact ul li {
-		padding-left: 0;
 		display: block;
 		clear: both;
 		width: 100%;
-		margin-left: 0px;
+		margin-left: 0;
 		text-align: center;
 	}
 }
