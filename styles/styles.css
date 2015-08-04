@@ -58,7 +58,7 @@ header {
 
 .leftSide {
 	float: left;
-	width: 39%;
+	width: 40%;
 	margin-bottom: 5%;
 	display: block;
 	margin-left: 4%;
@@ -68,7 +68,7 @@ header {
 
 .rightSide {
 	float: right;
-	width: 39%;
+	width: 40%;
 	margin-bottom: 5%;
 	display: block;
 	margin-right: 4%;
@@ -150,7 +150,7 @@ header {
 }
 
 .myWork p {
-	text-indent: 20px;
+	text-indent: 30px;
 	line-height: 200%;
 	font-family: 'Quicksand', sans-serif;
 }
