@@ -233,6 +233,10 @@ li .fa-linkedin-square:hover {
 	font-size: 3.5em;	
 	}
 	
+	.proPic {
+		max-width: 35%;	
+	}
+	
 	.right-header {
 		display: none;
 	}
@@ -279,7 +283,8 @@ li .fa-linkedin-square:hover {
 	.whatIKnow {
 		padding-left: 2%;
 		padding-right: 2%;
-		margin: 0 auto;	
+		margin: 0 auto;
+		margin-bottom: 50px;
 	}
 	
 	.whatIKnow p {
