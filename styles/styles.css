@@ -7,6 +7,11 @@ body {
 	right: 0;
 }
 
+a:visited {
+	text-decoration: none;
+	color: #0000FF;
+}
+
 .fullName {
 	width: inherit;
 	color: black;
