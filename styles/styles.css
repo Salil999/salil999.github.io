@@ -177,8 +177,8 @@ header {
 .contact ul li {
 	margin-top: 50px;
 	margin-bottom: -30px;
-	margin-left: 1.5%;
-	margin-right: 1.5%;
+	margin-left: 3.5%;
+	margin-right: 3.5%;
 	display:inline-block;
 }
 
@@ -192,7 +192,7 @@ header {
 	color: red;
 	font-size: 30px;
 	*/
-	font-size: 30px;
+	font-size: 40px;
 	color: #404749;
 	display: inline-block;
 }
@@ -204,6 +204,14 @@ footer {
 	clear: both;
 	width: 100%;
 	padding-top: 50px;
+}
+
+footer p {
+	text-align: center;
+	margin-top: -10px;
+	padding-bottom: 15px;
+	font-family: 'Lato', 'Arial', sans-serif;
+	font-size: 20px;
 }
 
 footer ul {
@@ -348,8 +356,12 @@ footer li .fa-linkedin-square:hover {
 	}
 
 	.contact ul li {
-		margin-left: 4.5%;
-		margin-right: 4.5%;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	.contact ul li .fa {
+		font-size: 25px;
 	}
 
 	footer ul li {
@@ -357,8 +369,13 @@ footer li .fa-linkedin-square:hover {
 		margin-right: 5%;
 	}
 
+	footer p {
+		font-size: 17px;
+
+	}
+
 	footer li .fa {
-		font-size: 30px;
+		font-size: 25px;
 		color: #404749;
 		display: inline-block;
 	}
