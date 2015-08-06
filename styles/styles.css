@@ -37,12 +37,12 @@ body {
 	font-size: 2.0em;
 	margin-left: 50px;
 	width: auto;
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Inconsolata', sans-serif;
 }
 
 .right-header {
 	letter-spacing: 10px;
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Inconsolata', sans-serif;
 	margin-top: 115px;
 	float: right;
 	text-align: center;
@@ -111,7 +111,7 @@ header {
 
 .introPara {
 	line-height: 200%;
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Inconsolata', sans-serif;
 	text-align: justify;
 	margin-bottom: 60px;
 	margin-top: 5px;
@@ -125,7 +125,7 @@ header {
 
 .workExp p {
 	line-height: 200%;
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Inconsolata', sans-serif;
 }
 
 .workExp h2 {
@@ -147,7 +147,7 @@ header {
 
 .whatIKnow p {
 	line-height: 150%;
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Inconsolata', sans-serif;
 	text-indent: 20px;
 }
 
@@ -169,7 +169,7 @@ header {
 .myWork p {
 	margin-left: 20px;
 	line-height: 200%;
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Inconsolata', sans-serif;
 }
 
 /* ================ contact ================== */
