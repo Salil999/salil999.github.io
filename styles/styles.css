@@ -346,4 +346,20 @@ footer li .fa-linkedin-square:hover {
 		padding-left: 0;
 		width: 100%;
 	}
+
+	.contact ul li {
+		margin-left: 4.5%;
+		margin-right: 4.5%;
+	}
+
+	footer ul li {
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	footer li .fa {
+		font-size: 30px;
+		color: #404749;
+		display: inline-block;
+	}
 }
