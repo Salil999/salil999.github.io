@@ -7,9 +7,17 @@ body {
 	right: 0;
 }
 
-.body a:visited {
-	text-decoration: none;
+.myWork a:hover {
 	color: #0000FF;
+}
+
+.myWork a {
+	text-decoration: none;
+}
+
+.myWork a {
+	color: black;
+	text-decoration: none;
 }
 
 .fullName {
@@ -176,7 +184,7 @@ header {
 
 .contact ul li {
 	margin-top: 50px;
-	margin-bottom: -30px;
+	margin-bottom: -40px;
 	margin-left: 3.5%;
 	margin-right: 3.5%;
 	display:inline-block;
@@ -195,6 +203,30 @@ header {
 	font-size: 40px;
 	color: #404749;
 	display: inline-block;
+}
+
+.contact li .fa-file-text:hover {
+	color: indianred;
+}
+
+.contact li .fa-envelope:hover {
+	color: forestgreen;
+}
+
+.contact li .fa-github-square:hover {
+	color: darkgray;
+}
+
+.contact li .fa-facebook-square:hover {
+	color: #3b5998;
+}
+
+.contact li .fa-linkedin-square:hover {
+	color: #007bb6;
+}
+
+.contact ul li .fa-file-text {
+	font-size: 35px;
 }
 
 /* ================ footer ================== */
@@ -241,7 +273,7 @@ footer li .fa {
 }
 
 footer li .fa-file-text {
-	font-size: 60px;
+	font-size: 55px;
 }
 
 footer li .fa-file-text:hover {
