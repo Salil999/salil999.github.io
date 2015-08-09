@@ -119,6 +119,15 @@ header {
 	margin: 0 auto;
 }
 
+.workExp a {
+	color: #0000FF;
+	text-decoration: none;
+}
+
+.workExp a:hover {
+	color: #0000FF;
+}
+
 .workExp p {
 	line-height: 200%;
 	font-family: 'Arvo', sans-serif;
