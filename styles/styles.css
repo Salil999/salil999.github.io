@@ -11,6 +11,10 @@ body {
 	color: #0000FF;
 }
 
+.blog {
+	margin-top: 500px;
+}
+
 .myWork a {
 	color: #0000FF;
 	text-decoration: none;
