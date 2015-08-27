@@ -11,8 +11,16 @@ body {
 	color: #0000FF;
 }
 
-.blog {
-	margin-top: 500px;
+.whiteBackground {
+	background-color: #f5f5f5;
+}
+
+.body_contact {
+	background-color: #f5f5f5;
+	overflow: auto;
+	margin: 0 auto;
+	padding-top: 100px;
+	width: 80%;
 }
 
 .myWork a {
@@ -53,7 +61,7 @@ body {
 }
 
 header {
-	margin-bottom: -210px;
+	margin-bottom: -200px;
 	padding-top: 70px;
 }
 
@@ -62,6 +70,7 @@ header {
 	max-width: 20%;
 	margin: 0 auto;
 	margin-top: 40px;
+
 	/*
 	border-radius: 50%;
 	border-bottom: solid 5px #dee9f1;
