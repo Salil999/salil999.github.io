@@ -11,12 +11,16 @@ body {
 	color: #0000FF;
 }
 
+#pinnedPost {
+	margin-top: -60px;
+}
+
 .heading {
 	padding-left: 150px;
 	font-size: 1.4em;
 }
 
-.newBlogPost {
+.newBlogParagraph {
 	padding-left: 200px;
 	padding-right: 200px;
 	line-height: 2.7;
@@ -303,13 +307,13 @@ footer ul li {
 /* ======================= Font Awesome ======================= */
 
 footer li .fa {
-	font-size: 65px;
+	font-size: 4.0em;
 	color: #404749;
 	display: inline-block;
 }
 
 footer li .fa-file-text {
-	font-size: 55px;
+	font-size: 3.55em;
 }
 
 footer li .fa-file-text:hover {
