@@ -11,6 +11,10 @@ body {
 	color: #0000FF;
 }
 
+.lastPost {
+	margin-bottom: 100px;
+}
+
 #pinnedPost {
 	margin-top: -60px;
 }
