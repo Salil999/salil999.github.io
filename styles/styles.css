@@ -11,13 +11,36 @@ body {
 	color: #0000FF;
 }
 
-.lastPost {
-	padding-top: 20px;
-	margin-bottom: 50px;
+.newPost {
+	-webkit-box-shadow: 0px 0px 24px -2px rgba(0, 0, 0, 0.51);
+	-moz-box-shadow: 0px 0px 24px -2px rgba(0, 0, 0, 0.51);
+	box-shadow: 0px 0px 24px -2px rgba(0, 0, 0, 0.51);
+	width: 90%;
+	margin: 0 auto;
+	margin-bottom: 65px;
+	margin-top: 65px;
+	display: block;
+	padding-top: 45px;
+	padding-bottom: 45px;
+	/*
+	margin-bottom: 5px;
+	-webkit-box-shadow: 0px 0px 24px -2px rgba(0, 0, 0, 0.51);
+	-moz-box-shadow: 0px 0px 24px -2px rgba(0, 0, 0, 0.51);
+	box-shadow: 0px 0px 24px -2px rgba(0, 0, 0, 0.51);
+	width: 90%;
+	margin: 0 auto;
+	display: block;*/
 }
 
 #pinnedPost {
-	margin-top: -60px;
+	-webkit-box-shadow: 0px 0px 24px -2px rgba(0, 0, 0, 0.51);
+	-moz-box-shadow: 0px 0px 24px -2px rgba(0, 0, 0, 0.51);
+	box-shadow: 0px 0px 24px -2px rgba(0, 0, 0, 0.51);
+	width: 90%;
+	margin: 0 auto;
+	padding-top: 45px;
+	padding-bottom: 45px;
+	display: block;
 }
 
 .heading {
@@ -105,6 +128,13 @@ header {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 40px;
+	<<<<<<< HEAD
+	/*
+	border-radius: 50%;
+	border-bottom: solid 5px #dee9f1;
+	border-top: solid 5px white;
+	*/
+	=======>>>>>>> dev
 }
 
 .leftSide {
