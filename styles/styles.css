@@ -288,6 +288,10 @@ header {
 	display: inline-block;
 }
 
+.contact li .fa-home:hover {
+	color: #DB7700;
+}
+
 .contact li .fa-file-text:hover {
 	color: indianred;
 }
