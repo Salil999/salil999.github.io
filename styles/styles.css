@@ -33,6 +33,11 @@ body {
 	text-indent: 70px;
 }
 
+.newBlogParagraph a {
+	color: #0000FF;
+	text-decoration: none;
+}
+
 .dates {
 	float: right;
 	padding-right: 150px;
@@ -65,8 +70,8 @@ body {
 
 .left-header {
 	letter-spacing: 10px;
-	float:left;
-	width:auto;
+	float: left;
+	width: auto;
 	text-align: center;
 	margin-top: 115px;
 	font-size: 2.0em;
@@ -81,7 +86,7 @@ body {
 	margin-top: 115px;
 	float: right;
 	text-align: center;
-	width:auto;
+	width: auto;
 	font-size: 2.0em;
 	margin-right: 50px;
 	width: 500px;
@@ -95,9 +100,10 @@ header {
 .proPic {
 	display: block;
 	max-width: 20%;
+	text-align: center;
+	vertical-align: bottom;
 	margin: 0 auto;
 	margin-top: 40px;
-
 	/*
 	border-radius: 50%;
 	border-bottom: solid 5px #dee9f1;
@@ -134,6 +140,7 @@ header {
 	padding-bottom: 100px;
 }
 
+
 /* ================ myStory ================== */
 
 .myStory {
@@ -153,6 +160,7 @@ header {
 	margin-bottom: 60px;
 	margin-top: 5px;
 }
+
 
 /* ================ recentStuff ================== */
 
@@ -179,6 +187,7 @@ header {
 	margin-bottom: 30px;
 }
 
+
 /* ================ whatIKnow ================== */
 
 .whatIKnow {
@@ -196,6 +205,7 @@ header {
 	font-family: 'Arvo', sans-serif;
 	text-indent: 20px;
 }
+
 
 /* ================ myWork ================== */
 
@@ -218,6 +228,7 @@ header {
 	font-family: 'Arvo', sans-serif;
 }
 
+
 /* ================ contact ================== */
 
 .contact ul {
@@ -233,7 +244,7 @@ header {
 	margin-bottom: -40px;
 	margin-left: 3.5%;
 	margin-right: 3.5%;
-	display:inline-block;
+	display: inline-block;
 }
 
 .contact ul li .fa {
@@ -275,6 +286,7 @@ header {
 	font-size: 35px;
 }
 
+
 /* ================ footer ================== */
 
 footer {
@@ -307,8 +319,9 @@ footer ul li {
 	margin-bottom: 8px;
 	margin-left: 7.5%;
 	margin-right: 7.5%;
-	display:inline-block;
+	display: inline-block;
 }
+
 
 /* ======================= Font Awesome ======================= */
 
@@ -342,116 +355,95 @@ footer li .fa-linkedin-square:hover {
 	color: #007bb6;
 }
 
+
 /* ======================= Font Awesome ======================= */
 
 @media screen and (max-width: 1100px) {
 	.left-header {
 		display: none;
 	}
-
 	.fullName {
-		font-size: 4.5em;	
+		font-size: 4.5em;
 	}
-
 	.proPic {
-		max-width: 35%;	
+		max-width: 35%;
 	}
-
 	.right-header {
 		display: none;
 	}
 }
 
 @media screen and (max-width: 665px) {
-
 	header {
 		padding-bottom: 150px;
 		padding-top: 0;
 	}
-
 	.body {
 		padding-top: 70px;
 	}
-
 	.fullName {
 		font-size: 3.0em;
 	}
-
 	.proPic {
 		max-width: 40%;
 		margin-top: 20px;
 	}
-
 	.leftSide {
-		width: 100%;	
+		width: 100%;
 		padding: 0;
 		margin: 0 auto;
 	}
-
 	.myStory {
 		padding-left: 3%;
 		padding-right: 3%;
 		margin: 0 auto;
 	}
-
 	.workExp {
 		padding-left: 2%;
 		padding-right: 2%;
 		margin-bottom: 40px;
 	}
-
 	.whatIKnow {
 		padding-left: 2%;
 		padding-right: 2%;
 		margin: 0 auto;
 		margin-bottom: 50px;
 	}
-
 	.whatIKnow p {
 		text-indent: 0;
 		text-align: center;
 	}
-
 	.rightSide {
 		float: left;
 		width: 100%;
 		margin: 0 auto;
 	}
-
 	.left-header {
 		display: none;
 	}
-
 	.right-header {
 		display: none;
 	}
-
 	h2 {
 		text-align: center;
 		margin: 0 auto;
 		padding-left: 0;
 		width: 100%;
 	}
-
 	.contact ul li {
 		margin-left: 5%;
 		margin-right: 5%;
 	}
-
 	.contact ul li .fa {
 		font-size: 25px;
 	}
-
 	footer ul li {
 		margin-left: 5%;
 		margin-right: 5%;
 	}
-
 	footer p {
 		font-size: 17px;
-
 	}
-
 	footer li .fa {
 		font-size: 25px;
 		color: #404749;
