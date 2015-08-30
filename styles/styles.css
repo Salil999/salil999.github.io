@@ -54,7 +54,8 @@ body {
 	line-height: 2.7;
 	font-size: 1.2em;
 	text-indent: 70px;
-	font-family: 'Josefin Sans', sans-serif;
+	/*font-family: 'Josefin Sans', sans-serif;*/
+	font-family: 'Hind', sans-serif;
 }
 
 .newBlogParagraph a {
