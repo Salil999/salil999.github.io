@@ -44,8 +44,8 @@ body {
 }
 
 .heading {
-	padding-left: 150px;
 	font-size: 1.4em;
+	padding-left: 150px;
 }
 
 .newBlogParagraph {
@@ -54,7 +54,6 @@ body {
 	line-height: 2.7;
 	font-size: 1.2em;
 	text-indent: 70px;
-	/*font-family: 'Josefin Sans', sans-serif;*/
 	font-family: 'Hind', sans-serif;
 }
 
@@ -392,15 +391,66 @@ footer li .fa-linkedin-square:hover {
 
 /* ======================= Font Awesome ======================= */
 
+@media screen and (max-width: 1375px) {
+	.proPic {
+		max-width: 15%;
+		margin-top: 100px;
+	}
+	.left-header {
+		font-size: 2.0em;
+	}
+	.right-header {
+		font-size: 2.0em;
+	}
+}
+
+@media screen and (max-width: 1295px) {
+	.left-header {
+		font-size: 1.5em;
+		margin-bottom: 50px;
+	}
+	.right-header {
+		margin-bottom: 50px;
+		font-size: 1.5em;
+	}
+	.proPic {
+		margin-bottom: 125px;
+	}
+}
+
 @media screen and (max-width: 1100px) {
 	.left-header {
 		display: none;
 	}
 	.fullName {
-		font-size: 4.5em;
+		font-size: 4.0em;
+		padding-bottom: 150px;
+	}
+	.blogCSS {
+		display: none;
+	}
+	.heading {
+		font-size: 0.9em;
+		padding-left: 50px;
+	}
+	.dates {
+		font-size: 0.9em;
+		padding-right: 50px;
+	}
+	.newBlogParagraph {
+		padding-left: 75px;
+		padding-right: 75px;
+		line-height: 2.4;
+		font-size: 1.0em;
+		text-indent: 40px;
+	}
+	.contact {
+		padding-bottom: 50px;
+		margin-top: -70px;
 	}
 	.proPic {
-		max-width: 35%;
+		max-width: 25%;
+		margin-bottom: 150px;
 	}
 	.right-header {
 		display: none;
@@ -408,6 +458,26 @@ footer li .fa-linkedin-square:hover {
 }
 
 @media screen and (max-width: 665px) {
+	.heading {
+		font-size: 0.9em;
+		padding-left: 0px;
+		padding-right: 50px;
+	}
+	.dates {
+		font-size: 0.9em;
+		padding-right: 50px;
+	}
+	.newBlogParagraph {
+		padding-left: 50px;
+		padding-right: 50px;
+		line-height: 2.4;
+		font-size: 1.0em;
+		text-indent: 40px;
+	}
+	.contact {
+		margin-top: -150px;
+		margin-bottom: 50px;
+	}
 	header {
 		padding-bottom: 150px;
 		padding-top: 0;
@@ -420,7 +490,7 @@ footer li .fa-linkedin-square:hover {
 	}
 	.proPic {
 		max-width: 40%;
-		margin-top: 20px;
+		margin-top: 70px;
 	}
 	.leftSide {
 		width: 100%;
@@ -463,6 +533,20 @@ footer li .fa-linkedin-square:hover {
 		margin: 0 auto;
 		padding-left: 0;
 		width: 100%;
+	}
+	.blogCSS {
+		display: none;
+	}
+	.newBlogParagraph {
+		padding-left: 75px;
+		padding-right: 75px;
+		line-height: 2.4;
+		font-size: 1.0em;
+		text-indent: 40px;
+	}
+	.contact {
+		padding-bottom: 50px;
+		margin-top: -70px;
 	}
 	.contact ul li {
 		margin-left: 5%;
