@@ -288,6 +288,10 @@ header {
 	display: inline-block;
 }
 
+.contact li .fa-pencil-square:hover {
+	color: #DB7700;
+}
+
 .contact li .fa-home:hover {
 	color: #DB7700;
 }
