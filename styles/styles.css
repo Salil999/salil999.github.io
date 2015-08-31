@@ -11,6 +11,10 @@ body {
 	color: #0000FF;
 }
 
+.counter {
+	float: right;
+}
+
 header h5 {
 	display: block;
 	text-align: center;
