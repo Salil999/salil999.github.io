@@ -335,7 +335,7 @@ footer {
 	margin: 0 auto;
 	clear: both;
 	width: 100%;
-	padding-top: 50px;
+	padding-top: 15px;
 }
 
 footer p {
@@ -344,6 +344,7 @@ footer p {
 	padding-bottom: 15px;
 	font-family: 'Lato', 'Arial', sans-serif;
 	font-size: 20px;
+	font-size: 0.8em;
 }
 
 footer ul {
