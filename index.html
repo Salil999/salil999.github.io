@@ -24,7 +24,7 @@
 
 	<script>
 		function finishedSending() {
-			swal("Thanks!", "I'll get in touch with you ASAP!", "success");	
+			swal("Thanks!", "I'll get in touch with you shortly!", "success");
 		}
 	</script>
 	
@@ -168,6 +168,9 @@
 									</li>
 									<li>
 										<input type="reset" value="Reset Form" />
+									</li>
+									<li>
+										<input type="hidden" name="_next" value="finishedSending()">
 									</li>
 								</ul>
 							</div>
