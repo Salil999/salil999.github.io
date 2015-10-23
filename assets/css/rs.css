@@ -1,0 +1,25 @@
+.centerTitle {
+	margin: 0 auto;
+}
+
+#displayTime {
+	font-size: 3.0em;
+}
+
+.imgWidth {
+	width: 325px;
+}
+
+.h2Width {
+	width: 170px;
+}
+
+.timerWidth {
+	width: 200px;
+}
+
+.addMargin {
+	width: 390px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
