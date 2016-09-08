@@ -16,3 +16,4 @@ ExpiresDefault "access plus 2 days"
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.html [NC,L]
+Redirect /assets/docs/InDesign_Resume.pdf http://shashanksaxena.me/assets/docs/Creddle_Resume.pdf
