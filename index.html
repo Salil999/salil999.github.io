@@ -1,118 +1,87 @@
-<!DOCTYPE HTML>
-<html lang="en">
-
-<head>
-	<title>Shashank Saxena</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-	<link rel=icon type="image/gif" href="images/favicon.ico">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-	<link rel="stylesheet" href="assets/css/main.css">
-	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-	<meta charset="utf-8">
-	<meta name="description" content="Shashank's Personal Website">
-	<meta name="author" content="Shashank Saxena">
-	<meta property="og:title" content="Shashank Saxena">
-	<meta property="og:type" content="website">
-	<meta property="og:url" content="http://shashanksaxena.me/">
-	<meta property="og:description" content="Here you can find Shashank's online portfolio. Be sure to message him!">
-	<meta property="og:image:url" content="http://shashanksaxena.me/images/me.png">
-	<meta property="og:image:width" content="278">
-	<meta property="og:image:height" content="268">
-</head>
-
-<body>
-	<section id="header">
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel=icon type="image/gif" href="images/favicon.ico">
+		<title>Shashank Saxena</title>
+		<style type="text/css">
+			body {
+				margin:40px auto;
+				max-width:950px;
+				line-height:2.0;
+				font-size:24px;
+				font-family: "Verdana";
+				color: black;
+				background-color: #EBD5B3;
+			}
+			h1,h2 {
+				line-height:1.4
+			}
+			#list ul{
+				list-style: none;
+			}
+			#list ul a{
+				margin: 0px 60px 0px 0px;
+				text-decoration: none;
+			}
+			#list li{
+				display: inline;
+				/*margin: 10px 10px 10px 10px;*/
+			}
+			.dark-mode {
+				color: #b6b6b6;
+				background-color: black
+			}
+		</style>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<meta charset="utf-8">
+		<meta name="description" content="Shashank's Personal Website">
+		<meta name="author" content="Shashank Saxena">
+		<meta property="og:title" content="Shashank Saxena">
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="http://shashanksaxena.me/">
+		<meta property="og:description" content="Here you can find Shashank's online portfolio. Be sure to message him!">
+		<meta property="og:image:url" content="http://shashanksaxena.me/images/me.png">
+		<meta property="og:image:width" content="278">
+		<meta property="og:image:height" content="268">
+	</head>
+	<body style="dark-mode">
 		<header>
-			<span class="image avatar"><img src="images/avatar.png" alt=""></span>
-			<h1 id="logo"><a>Shashank Saxena</a></h1>
+			<h1>Who I Am <i onclick="toggle()" class="fa fa-lightbulb-o" aria-hidden="true"></i></h1>
 		</header>
-		<footer>
-			Click These!
-			<br>
-			<ul class="icons">
-				<li><a href="assets/docs/Shashank_Saxena_Resume.pdf" class="icon fa-file-text" target="_blank"><span class="label">Résumé</span></a></li>
-				<li><a href="https://github.com/salil999" class="icon fa-github" target="_blank"><span class="label">Github</span></a></li>
-                <li><a href="http://shankslife.wordpress.com" class="icon fa-rss-square" target="_blank"><span class="label">Github</span></a></li>
-				<li><a href="assets/docs/little_log.pdf" class="fab fa-pied-piper-hat" target="_blank" style="text-decoration:none"></a></li>
-				<li><a href="https://www.linkedin.com/in/shank96" class="icon fa-linkedin-square" target="_blank"><span class="label">LinkedIn</span></a></li>
-				<li><a href="https://facebook.com/Salil9992" class="icon fa-facebook-square" target="_blank"><span class="label">Facebook</span></a></li>
-				<li><a href="mailto:saxena.shashank96@gmail.com" class="icon fa-envelope" target="_blank"><span class="label">Email</span></a></li>
+		<p>Hey there! My name's Shashank Saxena (or more commonly known as Shank) and I currently work at AWS on <a href="https://aws.amazon.com/dynamodb/">DynamoDB</a> as a software engineer.</p>
+		<p>I'm usually hanging out with my friends over some bubble tea or ping pong and I really, <em>really</em> like sushi. Otherwise, I read a lot of online articles regarding changes in technology and I try to stay up to date with the latest tech news.</p>
+		<p>I have experience with a couple of different areas in computer engineering. However, my <em>favorite</em> topic is distributed systems and cloud computing. I think distributed systems is a very interesting field that incorporates a lot of other areas of focus (OS, networking, algorithms, data science, etc). It's certainly going to be on the rise in the next few years with the vast amount of data that is being produced daily!</p>
+		<br>
+		<h2>Let's Talk!</h2>
+		<p>These are some of the places where I'm active:</p>
+		<div id="list">
+			<ul>
+				<a href="https://github.com/salil999" target="_blank"><li class="fa fa-github fa-2x"></li></a>
+				<a href="https://www.linkedin.com/in/shank96" target="_blank"><li class="fa fa-linkedin-square fa-2x"></li></a>
+				<a href="https://facebook.com/Salil9992" target="_blank"><li class="fa fa-facebook-square fa-2x"></li></a>
+				<a href="https://twitter.com/ShankRedemption" target="_blank"><li class="fa fa-twitter-square fa-2x"></li></a>
+				<a href="https://www.ghosttype.app/ShankRedemption" target="_blank"><li class="fa fa-rss-square fa-2x"></li></a>
+				<a href="mailto:saxena.shashank96@gmail.com" target="_blank"><li class="fa fa-envelope fa-2x"></li></a>
 			</ul>
-		</footer>
-	</section>
-	<div id="wrapper">
-		<div id="main">
-			<section id="one">
-				<div class="container">
-					<header class="major">
-						<h2>Who I Am</h2>
-					</header>
-					<p>Hey there! My name's Shashank Saxena (or more commonly known as Shank). I graduated from University of Illinois Urbana-Champaign with a degree in computer engineering. I currently work at AWS on <a href="https://aws.amazon.com/dynamodb/" target="_blank">DynamoDB</a> as a software engineer.
-						<br><br>I'm usually hanging out with my friends over some bubble tea or ping pong and I really <i>really</i> like sushi. Otherwise, I read a lot of online articles regarding changes in technology and try to stay up to date with the latest tech news.
-						<br>
-						<br>I have experience with a couple of different areas in computer engineering. However, my
-						<b style="color:black">favorite</b> topic is distributed systems and cloud computing. I think distributed systems is a very interesting field that incorporates a lot of other areas of focus (OS, networking, algorithms, data science, etc). It's certainly going to be on the rise in the next few years with the vast amount of data that is being produced daily.
-						<br>
-						<br>Let's talk about it! You can use the icons at the bottom in the side bar, or use the contact form. <i class="far fa-smile"></i></p>
-				</div>
-			</section>
-			<section id="four">
-				<div class="container">
-					<h2>Contact Me</h2>
-					<p>Hit me up, fam! I don't bite!</p>
-					<form method="POST" action="//formspree.io/saxena.shashank96@gmail.com">
-						<div class="row uniform">
-							<div class="6u 12u(xsmall)">
-								<input type="text" name="name" id="name" placeholder="Name" />
-							</div>
-							<div class="6u 12u(xsmall)">
-								<input type="email" name="_replyto" id="email" placeholder="Email" />
-							</div>
-						</div>
-						<div class="row uniform">
-							<div class="12u">
-								<input type="text" name="_subject" id="subject" placeholder="Subject" />
-							</div>
-						</div>
-						<div class="row uniform">
-							<div class="12u">
-								<textarea name="message" id="message" placeholder="Message" rows="6"></textarea>
-							</div>
-						</div>
-						<div class="row uniform">
-							<div class="12u">
-								<ul class="actions">
-									<li>
-										<input type="submit" class="special" value="Send" onclick="finishedSending()" />
-									</li>
-									<li>
-										<input type="reset" value="Reset Form" />
-									</li>
-								</ul>
-							</div>
-						</div>
-						<input type="hidden" name="_next" value="form-submit.html" />
-					</form>
-				</div>
-			</section>
 		</div>
-		<section id="footer">
-			<div class="container">
-				<ul class="copyright">
-					<li>&copy; Blah Blah Copyright. All Rights Reserved. Blah Blah. This website is completely stolen from HTML5UP.</li>
-				</ul>
-			</div>
-		</section>
-	</div>
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.scrollzer.min.js"></script>
-	<script src="assets/js/jquery.scrolly.min.js"></script>
-	<script src="assets/js/skel.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-	<script src="assets/js/main.js"></script>
-</body>
-
+		<br>
+		<h2>Check Out My Work!</h2>
+		<div id="list">
+			<ul>
+				<a href="assets/docs/little_log.pdf" target="_blank"><li class="fa fa-book fa-2x"></li></a>
+				<a href="assets/docs/Shashank_Saxena_Resume.pdf" target="_blank"><li class="fa fa-file-text fa-2x"></li></a>
+			</ul>
+		</div>
+		<br>
+		<h2>Inspriation</h2>
+		<p>I love what the creator of <a
+			href="http://motherfuckingwebsite.com/">this site</a> and what the creator of <a href="http://bettermotherfuckingwebsite.com/">this site</a> did. I've always been a fan of minimalism and I figured I should try and showcase that on my personal website!</p>
+		<script type="text/javascript">
+			function toggle() {
+				document.body.classList.toggle('dark-mode')
+			}
+		</script>
+	</body>
 </html>
