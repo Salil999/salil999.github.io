@@ -1,88 +1,127 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel=icon type="image/gif" href="images/favicon.ico">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="icon" type="image/gif" href="images/favicon.ico" />
 		<title>Shashank Saxena</title>
 		<style type="text/css">
 			body {
 				margin: 5px auto;
 				padding-left: 5px;
-				max-width:950px;
-				line-height:2.0;
-				font-size:24px;
-				font-family: "Verdana";
+				max-width: 950px;
+				line-height: 2;
+				font-size: 18px;
+				font-family: 'Verdana';
 				color: black;
-				background-color: #EBD5B3;
+				background-color: #ebd5b3;
 			}
-			h1,h2 {
-				line-height:1.4
+			h1,
+			h2 {
+				line-height: 1.4;
 			}
-			#list ul{
+			#list ul {
 				list-style: none;
 			}
-			#list ul a{
+			#list ul a {
 				margin: 0px 60px 0px 0px;
 				text-decoration: none;
 			}
-			#list li{
+			#list li {
 				display: inline;
 				/*margin: 10px 10px 10px 10px;*/
 			}
+			#side-note {
+				font-size: 12px;
+				line-height: 0.1;
+			}
+			#resume-icon {
+				font-size: 32px;
+			}
 			.dark-mode {
 				color: #b6b6b6;
-				background-color: black
+				background-color: black;
+			}
+			.dark-mode a {
+				color: rgb(208, 28, 28);
 			}
 		</style>
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<meta charset="utf-8">
-		<meta name="description" content="Shashank's Personal Website">
-		<meta name="author" content="Shashank Saxena">
-		<meta property="og:title" content="Shashank Saxena">
-		<meta property="og:type" content="website">
-		<meta property="og:url" content="http://shashanksaxena.me/">
-		<meta property="og:description" content="Shashank's online portfolio">
-		<meta property="og:image:url" content="http://shashanksaxena.me/images/me.png">
-		<meta property="og:image" content="http://shashanksaxena.me/images/me.png">
-		<meta property="og:image:width" content="278">
-		<meta property="og:image:height" content="268">
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+		<meta charset="utf-8" />
+		<meta name="description" content="Shashank's Personal Website" />
+		<meta name="author" content="Shashank Saxena" />
+		<meta property="og:title" content="Shashank Saxena" />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="http://shashanksaxena.me/" />
+		<meta property="og:description" content="Shashank's online portfolio" />
+		<meta property="og:image:url" content="http://shashanksaxena.me/images/avatar_fb.png" />
+		<meta property="og:image" content="http://shashanksaxena.me/images/avatar_fb.png" />
+		<meta property="og:image:width" content="278" />
+		<meta property="og:image:height" content="268" />
 	</head>
 	<body style="dark-mode">
 		<header>
 			<h1>Who I Am <i onclick="toggle()" class="fa fa-lightbulb-o" aria-hidden="true"></i></h1>
 		</header>
-		<p>Hey there! My name's Shashank Saxena (or more commonly known as Shank) and I currently work at AWS on <a href="https://aws.amazon.com/dynamodb/">DynamoDB</a> as a software engineer.</p>
-		<p>I'm usually hanging out with my friends over some bubble tea or ping pong and I really, <em>really</em> like sushi. Otherwise, I read a lot of online articles regarding changes in technology and I try to stay up to date with the latest tech news.</p>
-		<p>I have experience with a couple of different areas in computer engineering. However, my <em>favorite</em> topic is distributed systems and cloud computing. I think distributed systems is a very interesting field that incorporates a lot of other areas of focus (OS, networking, algorithms, data science, etc). It's certainly going to be on the rise in the next few years with the vast amount of data that is being produced daily!</p>
-		<br>
+		<blockquote id="side-note">Psst... you can click the light bulb!</blockquote>
+		<p>
+			Hey there! My name's Shashank Saxena (or more commonly known as Shank) and I currently work at AWS on
+			<a href="https://aws.amazon.com/dynamodb/">DynamoDB</a> as a software engineer.
+		</p>
+		<p>
+			I'm usually hanging out with my friends over some bubble tea or ping pong and I really, <em>really</em> like
+			sushi. Otherwise, I read a lot of online articles regarding changes in technology and I try to stay up to
+			date with the latest tech news.
+		</p>
+		<p>
+			I have experience with a couple of different areas in computer engineering. However, my
+			<em>favorite</em> topic is distributed systems and cloud computing. I think distributed systems is a very
+			interesting field that incorporates a lot of other areas of focus (OS, networking, algorithms, data science,
+			etc). It's certainly going to be on the rise in the next few years with the vast amount of data that is
+			being produced daily!
+		</p>
+		<br />
 		<h2>Let's Talk!</h2>
 		<p>These are some of the places where I'm active:</p>
 		<div id="list">
 			<ul>
 				<a href="https://github.com/salil999" target="_blank"><li class="fa fa-github fa-2x"></li></a>
-				<a href="https://www.linkedin.com/in/shank96" target="_blank"><li class="fa fa-linkedin-square fa-2x"></li></a>
-				<a href="https://facebook.com/Salil9992" target="_blank"><li class="fa fa-facebook-square fa-2x"></li></a>
-				<a href="https://twitter.com/ShankRedemption" target="_blank"><li class="fa fa-twitter-square fa-2x"></li></a>
-				<a href="https://www.ghosttype.app/ShankRedemption" target="_blank"><li class="fa fa-rss-square fa-2x"></li></a>
+				<a href="https://www.linkedin.com/in/shank96" target="_blank"
+					><li class="fa fa-linkedin-square fa-2x"></li
+				></a>
+				<a href="https://facebook.com/Salil9992" target="_blank"
+					><li class="fa fa-facebook-square fa-2x"></li
+				></a>
+				<a href="https://twitter.com/ShankRedemption" target="_blank"
+					><li class="fa fa-twitter-square fa-2x"></li
+				></a>
+				<a href="https://collectednotes.com/shank" target="_blank"><li class="fa fa-rss-square fa-2x"></li></a>
 				<a href="mailto:saxena.shashank96@gmail.com" target="_blank"><li class="fa fa-envelope fa-2x"></li></a>
 			</ul>
 		</div>
-		<br>
+		<br />
 		<h2>Check Out My Work!</h2>
 		<div id="list">
 			<ul>
 				<a href="assets/docs/little_log.pdf" target="_blank"><li class="fa fa-book fa-2x"></li></a>
-				<a href="assets/docs/Shashank_Saxena_Resume.pdf" target="_blank"><li class="fa fa-file-text fa-2x"></li></a>
+				<a href="assets/docs/Shashank_Saxena_Resume.pdf" target="_blank"
+					><li id="resume-icon" class="fa fa-file-text fa-2x" style="font-size: 32px;"></li
+				></a>
 			</ul>
 		</div>
-		<br>
+		<br />
 		<h2>Inspriation</h2>
-		<p>I love what the creator of <a
-			href="http://motherfuckingwebsite.com/">this site</a> and what the creator of <a href="http://bettermotherfuckingwebsite.com/">this site</a> did. I've always been a fan of minimalism and I figured I should try and showcase that on my personal website!</p>
+		<p>
+			I love what the creator of <a target="_blank" href="http://motherfuckingwebsite.com/">this site</a> and what
+			the creator of <a target="_blank" href="http://bettermotherfuckingwebsite.com/">this site</a> did. I've
+			always been a fan of minimalism and I figured I should try and showcase that on my personal website!
+		</p>
 		<script type="text/javascript">
 			function toggle() {
-				document.body.classList.toggle('dark-mode')
+				document.body.classList.toggle('dark-mode');
 			}
 		</script>
 	</body>
